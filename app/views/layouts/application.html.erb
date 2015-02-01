@@ -7,13 +7,11 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-	<img src="http://i.imgur.com/MQHYB.jpg" height="500"/>
 	<% flash.each do |name, message| %>
    		<div><%= message %></div>
 	<% end %>
 
 <%= yield %>
-<img src="http://www.laurabucur.ro/wp-content/uploads/2009/06/dog-hat.jpg" height="500" />
 
 </body>
 </html>
